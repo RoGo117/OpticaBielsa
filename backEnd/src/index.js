@@ -15,3 +15,15 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Servidor escuchando en http://localhost:${PORT}`);
 });
+
+
+const categoriaRoutes = require("./routes/categoriaRoutes");
+app.use("/categorias", categoriaRoutes);
+
+const productoRoutes = require("./routes/productoRoutes");
+app.use("/productos", productoRoutes);
+
+
+app.listen(PORT, () => {
+  console.log(`Servidor corriendo en puerto ${PORT}`);
+});
