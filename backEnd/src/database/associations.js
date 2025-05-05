@@ -13,6 +13,10 @@ const StockMovimiento = require("./models/stock_movimiento");
 const models = {
   Categoria,
   Producto,
+  Usuario,
+  Cliente,
+  Cita,
+  StockMovimiento
 };
 
 
