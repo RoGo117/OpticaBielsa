@@ -1,9 +1,11 @@
 
-*****************************
-*****************************       Autor:  Rodrigo Moreno Bielsa
-****    ÓPTICA BIELSA    ****       TFG - Desarrollo de Aplicaciones Web
-*****************************       Curso: 2024-2025
-*****************************
+*************************
+***   OPTICA BIELSA   ***
+*************************
+
+Autor:  Rodrigo Moreno Bielsa
+TFG - Desarrollo de Aplicaciones Web
+Curso: 2024-2025
 
 > Pasos para arrancar el servidor:
   - Tener operativo y funcionando Apache y MySQL de XAMPP
